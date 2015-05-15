@@ -20,8 +20,8 @@ var credentials= {
 	BaseUrl: 'https://developer.api.autodesk.com',
 	
 	credentials: {
-		ConsumerKey: process.env.CONSUMERKEY || '<replace with your consumer key>',
-		ConsumerSecret: process.env.CONSUMERSECRET || '<replace with your consumer secret>',
+		client_id: process.env.CONSUMERKEY || '<replace with your consumer key>',
+		client_secret: process.env.CONSUMERSECRET || '<replace with your consumer secret>',
 		grant_type: 'client_credentials'
 	}
 } ;
