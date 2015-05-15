@@ -21,8 +21,8 @@ var credentials= {
 	
 	credentials: {
 		ConsumerKey: process.env.CONSUMERKEY || '<replace with your consumer key>',
-		ConsumerSecret: process.env.CONSUMERSECRET || '<replace with your consumer secret>'
+		ConsumerSecret: process.env.CONSUMERSECRET || '<replace with your consumer secret>',
+		grant_type: 'client_credentials'
 	}
 } ;
-
 module.exports =credentials ;
