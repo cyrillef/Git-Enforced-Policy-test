@@ -25,5 +25,3 @@ var credentials= {
 	}
 } ;
 module.exports =credentials ;
-
-'abCdeFGH56HjK23 TyhG'

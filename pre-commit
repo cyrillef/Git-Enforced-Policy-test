@@ -1,11 +1,11 @@
 #!/bin/sh
 
 function keys {
-	echo.
+	echo ""
 	echo "Beware you got your keys in credentials.js, please remove them."
 	echo "  use: '<replace with your consumer key>' line #22"
 	echo "  and: '<replace with your consumer secret>' line #23"
-	echo.
+	echo ""
 	
 	OIFS="${IFS}"
 	NIFS=$'\n'
@@ -18,16 +18,16 @@ function keys {
 			IFS="${NIFS}"
 		done
 		IFS="${OIFS}"
-		echo.
+		echo ""
 	fi
 	exit 1
 }
 
 function urn {
-	echo.
+	echo ""
 	echo "Beware you got a URN key in www/index.js, please remove it."
 	echo "  use: '<replace with your encoded urn>' line #18"
-	echo.
+	echo ""
 	
 	OIFS="${IFS}"
 	NIFS=$'\n'
@@ -40,7 +40,7 @@ function urn {
 			IFS="${NIFS}"
 		done
 		IFS="${OIFS}"
-		echo.
+		echo ""
 	fi
 	exit 1
 }
