@@ -26,3 +26,4 @@ var credentials= {
 } ;
 module.exports =credentials ;
 
+ 'abCdeFGH56HjK23TyhSDG' //added by daniel
