@@ -1,0 +1,24 @@
+{
+  "name": "Git-Enforced-Policy-test",
+  "description": "some git tests",
+  "version": "1.0.0",
+  "dependencies": {},
+  "files": [
+    "LICENSE",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "contributors": [
+    "Cyrille Fauvel <cyrille@autodesk.com>"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cyrillef/Git-Enforced-Policy-test.git"
+  }
+}
